@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding-bottom: 10px;
+
+}
+
+.navbar p {
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+nav h1 {
+    padding-top: 30px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: palevioletred;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    width: 100%;
+
+
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.news {
+    position: relative;
+}
+
+.image1 {
+    position: relative;
+    z-index: 1;
+}
+
+.newstext {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+
+}
+
+
+
+main p {
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    flex: 1 1 calc(50% - 20%);
+    box-sizing: border-box;
+
+}
+
+.card p {
+    height: 120px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card .image {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+
+}
+
+.product h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.discover {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.discover a {
+    text-decoration: none;
+    color: white;
+}
+
+.discover a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.discover:hover {
+    outline: solid 0.5px black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bigcakes {
+    position: relative;
+    margin-top: 50px;
+}
+
+.imgcake {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.bigcakestext {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    right: 40px;
+
+}
+
+.bigcakestext .discover {
+    display: flex;
+    justify-content: center;
+
+}
+
+.storycontent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.storycontent img {
+    width: 200px;
+}
+
+.story {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.story h4 {
+    font-weight: 400;
+}
+
+.newsletter {
+    background-color: #C7D2A4;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+
+.newsletter h4 {
+    padding: 15px;
+}
+
+.newsletter p {
+    padding: 15px;
+}
+
+#disclaimer {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.newsletter button {
+    background-color: white;
+    color: black;
+    padding: 4px 10px 6px 10px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.newsletter input {
+    padding: 5px 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+.emailfield {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.newsletter p {
+    margin: 0;
+
+}
+
+.contact {
+    background-color: #f4f2f2;
+    text-align: left;
+    margin: 0;
+}
+
+.fields {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: flex-start;
+    background-color: #f4f2f2;
+    padding-bottom: 10px;
+
+}
+
+.contact h4 {
+    padding: 20px 0px 20px 20px;
+    ;
+
+}
+
+.bottom {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: black;
+    background-color: #f4f2f2;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.find {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logocontainer {
+    background-color: #f4f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: palevioletred;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:active {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+
+    }
+
+    nav h1 {
+        font-size: 50px;
+    }
+
+    .navbar p {
+        font-size: 20px;
+
+    }
+
+    nav ul {
+        font-size: 18px;
+        gap: 80px;
+        padding-bottom: 10px;
+    }
+
+    header {
+        margin-top: 100px;
+    }
+
+    header img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .newstext {
+        top: 450px;
+        left: 100px;
+        font-size: 20px;
+
+    }
+
+    .subtitle {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+        flex: 1 1 calc(25% - 20px);
+        box-sizing: border-box;
+        margin-bottom: 40px;
+
+    }
+
+    .bigcakestext {
+        font-size: 20px;
+
+    }
+
+    .storycontent img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .story h4 {
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+
+    }
+
+    nav h1 {
+        font-size: 50px;
+    }
+
+    .navbar p {
+        font-size: 20px;
+
+    }
+
+    nav ul {
+        font-size: 18px;
+        gap: 80px;
+        padding-bottom: 10px;
+    }
+
+    header {
+        margin-top: 100px;
+    }
+
+    header img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .newstext {
+        top: 300px;
+        left: 100px;
+        font-size: 30px;
+
+    }
+
+
+
+    .subtitle {
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .container {
+
+        gap: 20px;
+
+    }
+
+    .card {
+        padding-bottom: 10px;
+        flex: 1 1 calc(25% - 20px);
+        margin-bottom: 40px;
+        box-sizing: border-box;
+
+    }
+
+    .card p {
+        height: 90px;
+        font-size: 18px;
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .card .image {
+        height: 420px;
+        width: 400px;
+        object-fit: cover;
+
+    }
+
+    .product h4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        margin: 10px 0;
+        text-align: center;
+        font-weight: 300;
+        font-size: 25px;
+
+    }
+
+    .discover {
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        background-color: black;
+        padding: 5px 50px;
+        color: white;
+        border-radius: 10px;
+
+    }
+
+    .bigcakes {
+        margin-top: 80px;
+    }
+
+    .imgcake {
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .bigcakestext {
+        font-size: 30px;
+
+    }
+
+    .storycontent {
+        background-color: #f4f2f2;
+        margin-top: 80px;
+    }
+
+    .storycontent img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .story h4 {
+        font-size: 30px;
+    }
+
+    .newsletter {
+        background-color: #C7D2A4;
+        margin-top: 80px;
+        text-align: center;
+        color: black;
+
+    }
+
+
+    .newsletter h4 {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .newsletter p {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #disclaimer {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .newsletter button {
+        background-color: white;
+        color: black;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px 0 0 10px;
+        font-size: 18px;
+
+    }
+
+    .newsletter input {
+        padding: 10px 30px;
+        border-radius: 0 10px 10px 0;
+        font-size: 18px;
+    }
+
+
+
+    .emailfield {
+        margin-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .newsletter p {
+        margin: 0;
+
+    }
+
+    footer {
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f4f2f2;
+    }
+
+    footer img {
+        height: 120px;
+    }
+
+    .contact {
+        font-size: 18px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+
+    footer h5 {
+        font-size: 18px;
+    }
+
+
+
+    .fields input,
+    textarea {
+        padding: 5px 20px;
+        font-size: 15px;
+
+    }
+
+    .fields button {
+        font-size: 15px;
+    }
+
+}
