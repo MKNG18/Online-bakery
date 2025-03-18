@@ -2,7 +2,7 @@
 
 One of my very first projects:
 
-- Create a bakery webpage
+- Create a bakery land page
 - A neat design: very simple yet sophisticated
 - Clear information
 
